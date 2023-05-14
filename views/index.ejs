@@ -1,119 +1,114 @@
-<html lang="en"><head>
-  <meta charset="UTF-8">
-  <title>Yonacet - CV</title>
-  <script>
-    window.console = window.console || function(t) {};
-  </script>
-  <script>
-    if (document.location.search.match(/type=embed/gi)) {
-      window.parent.postMessage("resize", "*");
-    }
-  </script>
-  </head>
-  <body translate="no" onload="draw()">
-  
-  
-  <script src="/javascripts/jquery-2.2.4.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Share+Tech|Share+Tech+Mono" rel="stylesheet">
-  <link rel="stylesheet" href="/stylesheets/style.css">
-  <title>Designs by Laighlin</title>
-  
-  
-  <canvas id="bg"></canvas>
-  <main id="content" style="opacity: 1; margin-top: 0px;">
-  <h1>
-  <div class="hex moved"></div><span>Acerca de mi</span></h1>
-  <div class="subtext" id="main">
-  <p>Soy Yonacet Seijas un estudiante de 19 años y aprendiz en programación. Estoy capacitado para resolver problemas algoritmicos y pasarlos a un lenguaje de programación. Mi meta es saber al 100% programación</p>
-  <p><b>Fecha de Nacimiento:</b><i>01-10-2004</i></p>
-  <p><b>Estado Civil:</b><i>Soltero</i></p>
-  <p><b>Dirección:</b><i>Los Colorados, Villa de Cura, Edo. Aragua, Venezuela</i></p>
-  </div>
-  <h2>
-  <div class="hex"></div><span>Habilidades</span></h2>
-  <div class="subtext coll">
-  <ol>
-    <li>HTML   <progress value="70" max="100"></progress>  70%</li>
-    <li>CSS   <progress value="50" max="100"></progress>    50%</li>
-    <li>javascripts<progress value="20" max="100"></progress>20%</li>
-  </ol>
-  </div>
-  <h2>
-  <div class="hex"></div><span>Hobbies &amp; Intereses</span></h2>
-  <div class="subtext coll">
-  Me encantan los videojuegos. Música. La gastronomía.
-  </div>
-  <h2>
-  <div class="hex"></div><span>Experiencia</span></h2>
-  <div class="subtext coll">
-    2018 - Presente
+<html lang="en">
 
-    - Desarrollo de estrategias de marketing y ventas para aumentar la visibilidad y el alcance de la tienda en línea.
+  <head>
+    <meta charset="utf-8">
+    <meta charset="iso-8559-1"/>
+    <meta name= "description" content="pagina de enseñanza"/>
+    <meta name="keywords" content="html5,javascript,diseño web"/>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <title>Yonacet - CV</title>
+  </head>
+  <body>
+  <!--*****************************************-->
+  
+  
+  <h1><span class="title">****</span>Curriculum CV<span class="title">****</span></h1>
+  
+  <div id="grid-container">
+    <div id="container-img-icon">
+      <span class="span">*************</span><img src="/images/yo.jpg"><span class="span">*************</span>
+   </div>
+   <!--***************************************************************-->
+  <fieldset id="fieldset1" class="ubicar-F ubicar1">
+    <legend id="legend1" class="legenddd">Acerca de mi</legend>
+    <div id="centrarDiv">
+    <p>_Soy Yonacet Seijas un estudiante de 19 años y aprendiz en programación. Estoy capacitado para resolver problemas algoritmicos y pasarlos a un lenguaje de programación. Mi meta es saber al 100% programación.</p><br>
+    <ul>
+      <li>Fecha de Nacimiento: 01-10-2004</li>
+      <li>Estado Civil: Soltero</li>
+      <li>Dirección: Los Colorados, Villa de Cura, Edo. Aragua, Venezuela</li>
+    </ul>
+    </div>
+  </fieldset>
+  <!--*****************************************-->
+  <fieldset id="fieldset2" class="ubicar-F ubicar2">
+    <legend id="legend2" class="legenddd">Habilidades</legend>
+     
+    <ol id="ol">
+    <li>HTML<progress value="70" max="100" class="progress"></progress><span class="greenn">70%</span></li>
+    <li>CSS<progress value="50" max="100" class="progress"></progress><span class="greenn">50%</span></li>
+    <li>javascripts<progress value="20" max="100" class="progress"></progress><span class="greenn">20%</span></li>
+    <li>Capacidad de Aprendizaje<progress value="80" max="100" class="progress"></progress><span class="greenn">80%</span></li>
+    <li>Colaboracion en Equipo<progress value="100" max="100" class="progress"></progress><span class="greenn">100%</span></li>
+  </ol>
+  </fieldset>
+  <!--*****************************************-->
+  <fieldset id="fieldset3" class="ubicar-F ubicar3">
+    <legend id="legend3" class="legenddd">Hobbies &amp; Intereses</legend>
+    <ul id="hobbies">
+      <li>Me encantan los videojuegos. Música. La gastronomía.</li>
+      <li>Me Gusta la Lectura</li>
+      <li>Me gustan los deportes</li>
+      <li>Me gusta la Gastronomia</li>
+      <li>Me gusta el Parkour</li>
+    </ul>
+  </fieldset>
+  <!--*****************************************-->
+ <fieldset id="fieldset4" class="ubicar-F ubicar4">
+   <legend id="legend4" class="legenddd">Experiencia</legend>
+     <div id="experiencia">
+     2018 - Presente
+
+    <p>- Desarrollo de estrategias de marketing y ventas para aumentar la visibilidad y el alcance de la tienda en línea.
     - Gestión del inventario y control de stock para garantizar la disponibilidad de productos en todo momento.
     - Atención al cliente, resolución de problemas y manejo de quejas para asegurar la satisfacción del cliente.
     - Negociación con proveedores para obtener los mejores precios y condiciones de compra.
     - Análisis del mercado y seguimiento de las tendencias para mantenerse actualizado sobre los productos más populares y demandados.
     - Gestión financiera, incluyendo el manejo del presupuesto, la facturación y el seguimiento de los pagos.
-    
+
     Logros destacados:
     
     - Aumento del 30% en las ventas durante el primer año gracias a una estrategia efectiva de marketing digital.
     - Implementación exitosa de un programa de fidelización que ha aumentado la lealtad del cliente y ha generado ventas recurrentes.
-    - Reducción significativa en los costos operativos mediante la optimización del inventario y la negociación con proveedores.
-  </div>
-  <h2>
-  <div class="hex"></div><span>Educación</span></h2>
-  <div class="subtext coll">
-    <b>Escuela básica estadal camatagua</b>
-    <b>Unidad educativa nacional "Francisco Linares Alcántara"</b>
-    <b>UNERG (UNIVERSIDAD NACIONAL EXPERIMENTAL RÓMULO GALLEGOS) - ACTUAL</b>
-
-  </div>
-  <h2>
-  <div class="hex"></div><span>Contactame</span></h2>
-  <div class="subtext coll">
-  <ul>
+    - Reducción significativa en los costos operativos mediante la optimización del inventario y la negociación con proveedores.</p>
+    </div>
+   </fieldset>
+   <!--*****************************************-->
+  <fieldset id="fieldset5" class="fiel ubicar-F ubicar5">
+    <legend id="legend5" class="legenddd">Educación</legend>
+     <ol id="educacion">
+       <li>Escuela básica estadal camatagua</li>
+       <li>Unidad educativa nacional "Francisco Linares Alcántara</li>
+       <li>UNERG (UNIVERSIDAD NACIONAL EXPERIMENTAL RÓMULO GALLEGOS) - ACTUAL</li>
+     </ol>
+   
+  </fieldset>
+  <!--*****************************************-->
+  <fieldset id="fieldset6" class="ubicar-F ubicar6">
+    <legend id="legend6" class="legenddd">Contactame</legend>
+    <!--<ul>
   <li>Phone: +58 412-12345678</li>
   <li>E-mail: <a>yonacetandreizseijastamayo@gmail.com</a></li>
   <li> <a>Twitter</a> | <a>Tumblr</a> | <a>Codepen</a> | <a>Behance</a></li>
-  </ul>
+  </ul>-->
+  <form action="/" method="post">
+    <p id="p"><strong>Formulario de Contacto</strong></p>
+    <input type="text" name="nombre" placeholder="Ingresa Nombre Completo">
+    <input type="email" name="email" placeholder="Ingresa Email">
+    <textarea name="mensaje" placeholder="Ingresa un mensaje"></textarea>
+    <input type="submit" name="enviar" value="Enviar" id="submit">
+  </form>
+  </fieldset>
   </div>
-  </main>
-  <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="one"><path d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"></path></svg>
-  <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="two"><path d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"></path></svg>
-  <div id="hex-holder">
-  <div class="hex" id="uno"></div>
-  <div class="hex" id="dos"></div>
-  <div class="hex" id="tres"></div>
+  <div id="icon">
+    <img src="/icon/html5.svg">
+    <img src="/icon/javascript-icon.svg">
+    <img src="/icon/mono.svg">
+
   </div>
-  
-  
-  <script id="rendered-js">
-  function draw() {
-    var canvas = $('canvas')[0];
-    if (canvas.getContext) {
-      var ctx = canvas.getContext('2d');
-      ctx.fillStyle = 'rgb(200, 0, 0)';
-      ctx.fillRect(10, 10, 50, 50);
-      ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
-      ctx.fillRect(30, 30, 50, 50);
-    }
-  }
-  
-  $(document).ready(function () {
-    // $(document).draw();
-    $('#content').animate({
-      opacity: 1,
-      marginTop: '0' },
-    800);
-    $('h2').click(function () {
-      $(this).next('.subtext').slideToggle('fast');
-      $(this).children('.hex').toggleClass('moved');
-    });
-  });
-  //# sourceURL=pen.js
-      </script>
-  
-  
+
+  <!--*****************************************-->
+  <script type="text/javascript" src="/javascripts/funcionalidad.js"></script>
   </body>
 </html>
